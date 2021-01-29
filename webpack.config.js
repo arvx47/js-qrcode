@@ -7,8 +7,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist/'),
     filename: '[name]',
-    library: 'qrCodeJs',
-    libraryTarget: 'var',
+    library: 'QRCodeLib',
+    libraryTarget: 'umd',
   },
   resolve: {
     alias: {
